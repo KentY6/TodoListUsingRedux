@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import { Main } from "../screens/Main";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Main />
+    </div>
+  );
 }
 
 export default App;
