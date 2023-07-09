@@ -16,8 +16,8 @@ export const todoSlice = createSlice({
   // as TodoStateで型を適用する
   initialState: {
     todos: [
-      { text: "メールチェック", id: 202307082218 },
-      { text: "朝会", id: 202307082219 },
+      { text: "メールチェック", id: 1 },
+      { text: "朝会", id: 2 },
     ],
   } as TodoState,
   reducers: {

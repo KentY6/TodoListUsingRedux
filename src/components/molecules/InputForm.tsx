@@ -23,11 +23,8 @@ export const InputForm = () => {
             onChange={(e) => setText(e.target.value)}
           />
         </div>
-        <div
-          className="ml-5 p-2 cursor-pointer"
-          onClick={() => addTodosText(text)}
-        >
-          <SubmitButton />
+        <div className="ml-5 p-2" onClick={() => addTodosText(text)}>
+          <SubmitButton text={"Add"} />
         </div>
       </div>
     </>
